@@ -19,7 +19,7 @@ pipeline {
             }
         }
 
-        stage('DEPLOY') {
+        stage('Deploy') {
             steps{
                 sh '''
                     sleep 5
